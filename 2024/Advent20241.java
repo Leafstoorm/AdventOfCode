@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class Advent20241 {
-    private static String path = "C:\\Users\\user\\OneDrive\\PropCprog\\AdventOfCode\\2025\\";
+    private static String path = "C:\\Users\\user\\OneDrive\\PropCprog\\AdventOfCode\\2024\\";
     public static void main(String[] args) {
         PriorityQueue<Integer> list1 = new PriorityQueue<>();
         PriorityQueue<Integer> list2 = new PriorityQueue<>();
