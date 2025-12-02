@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Advent20252 {
-    private static String path = "C:\\Users\\user\\OneDrive\\PropCprog\\AdventOfCode\\";
+    private static String path = "C:\\Users\\user\\OneDrive\\PropCprog\\AdventOfCode\\2025\\";
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
 
@@ -13,8 +13,6 @@ public class Advent20252 {
             long result = 0;
             while (sc.hasNextLine()) {
                 String line = sc.nextLine().trim();
-
-
                 // Split on commas
                 String[] ranges = line.split(",");
                 //for each range (got all numbers)
